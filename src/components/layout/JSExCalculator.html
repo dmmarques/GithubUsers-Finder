@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Validator</title>
+</head>
+<body>
+    <script>
+        let n1 = prompt("Number1 :")
+        let n2 = prompt("Number2 :")
+        let op = prompt("Operator :")
+        const x = parseInt(n1)
+        const y = parseInt(n2)
+
+        document.write("Number1 is:" + x+"<br>")
+        document.write("Number2 is:" + y+"<br>")
+        document.write("Operator is:" + op+"<br>")
+
+        function calculate(x, y, op) {
+            if(op == '-') {
+                return x-y;
+            }
+            else if(op == '+') {
+                return x+y;
+            }
+            else if(op == '*') {
+                return x*y;
+            }
+            else if(op == '/') {
+                return x / y;
+            }
+        }
+
+        var result = calculate(x,y,op);
+        document.write("result: " + result);
+
+    </script>
+</body>
+</html>

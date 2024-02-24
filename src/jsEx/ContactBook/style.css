@@ -1,0 +1,20 @@
+.AppDiv {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.HeaderH1 {
+    background-color: blue;
+}
+
+.ContactTable {
+    border: 1px solid;
+    border-style: dotted;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid;
+}
